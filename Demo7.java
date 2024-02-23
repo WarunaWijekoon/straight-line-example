@@ -37,7 +37,7 @@ void returnLongestStraightLine(int[]... coordinatePairs) throws InterruptedExcep
             allGradient = gradient(x1, y1, x2, y2);
             line = lineLength(x1, y1, x2, y2);
             Thread.sleep(300);
-           // System.out.println(STR."(\{x1},\{y1})(\{x2},\{y2})  line length :\{line}  line gradient : \{allGradient}");
+
            System.out.println(String.format("| (%1$3d,%2$3d) | (%3$3d,%4$3d) | %5$5d      | %6$10f |  ",x1,y1,x2,y2,line,allGradient));
             if (line > sum) {
                 sum = line;
